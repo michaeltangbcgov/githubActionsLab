@@ -27,7 +27,7 @@ jobs:
       - name: Step one
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
         uses: actions/checkout@v2
-      - name: Step two
+      - name: Step three
         run: env | sort  
 
       # Runs a set of commands using the runners shell
